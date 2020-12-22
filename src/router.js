@@ -1,6 +1,6 @@
 import vueRouter from 'vue-router'
 
-import User from './User.vue'
+import User from './user.vue'
 import UserAuth from './UserAuth.Vue'
 import Inventory from './Inventory.Vue'
 import Search from './Search.Vue'
