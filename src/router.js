@@ -1,9 +1,9 @@
 import vueRouter from 'vue-router'
-import User from './components/User'
-import UserAuth from './components/UserAuth'
-import Inventory from './components/Inventory'
-import Search from './components/Search'
-import Modify from './components/Modify'
+import User from './User'
+import UserAuth from './UserAuth'
+import Inventory from './Inventory'
+import Search from './Search'
+import Modify from './Modify'
 import App from './App'
 
 const router = new vueRouter({
