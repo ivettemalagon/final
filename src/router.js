@@ -1,47 +1,25 @@
 import vueRouter from 'vue-router'
 
-import User from '/components/user.vue'
-import UserAuth from '/components/userauth.vue'
-import Inventory from '/components/inventory.vue'
-import Search from '/components/search.vue'
-import Modify from '/components/modify.vue'
+import User from './components/User'
 
 import App from './App'
 
 const router = new vueRouter({
-    mode: 'history',
-    base: __dirname,
-    routes: [
-        {
-        path: '/',
-        name: "root",
-        component: App
-        },
-        {
-            path: '/user/:username',
-            name: "user",
-            component: User
-        },
-        {
-            path: '/user/auth',
-            name: "user_auth",
-            component: UserAuth
-        },
-        {
-        path: '/inventory',
-        name: "inventory",
-        component: Inventory
-        },
-        {
-        path: '/inventory/product/',
-        name: "buscar",
-        component: Search
-        },
-        {
-        path: '/inventory/product/modify/',
-        name: "modificar",
-        component: Modify
-        },
-    ]
-})
+        mode: 'history',
+        base: __dirname,
+        routes: [
+            {
+                path: '/',
+                name: "root",
+                component: App
+            },
+            {
+                path: '/user/:username',
+                name: "user",
+                component: User
+            },
+            
+        ]
+    })
+
 export default router
