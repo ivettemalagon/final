@@ -1,10 +1,10 @@
 import vueRouter from 'vue-router'
 
-import User from './User'
-import UserAuth from './UserAuth'
-import Inventory from './Inventory'
-import Search from './Search'
-import Modify from './Modify'
+import User from './User.Vue'
+import UserAuth from './UserAuth.Vue'
+import Inventory from './Inventory.Vue'
+import Search from './Search.Vue'
+import Modify from './Modify.Vue'
 
 import App from './App'
 
